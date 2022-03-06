@@ -86,6 +86,7 @@ public class HotItemsWithSql {
                 "))" +
                 "where row_num<=5");
 
+        //1234556
         tabEnv.toRetractStream(resultSqlTable,Row.class).print();
         env.execute();
 
