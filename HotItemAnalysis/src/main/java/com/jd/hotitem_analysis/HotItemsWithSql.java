@@ -89,6 +89,7 @@ public class HotItemsWithSql {
         //1234556
 
         //hot-fix
+        //pull test
         tabEnv.toRetractStream(resultSqlTable,Row.class).print();
         env.execute();
 
